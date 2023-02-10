@@ -1,0 +1,27 @@
+@import url("styles/fonts.css");
+
+/* Some useful global styles */
+
+:root {
+	font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+	:root {
+		font-family: "Inter var", system-ui, Avenir, Helvetica, Arial, sans-serif;
+	}
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+/* |||||||||| */
+
+/* 💡IDEA: Create color variables if many more colours get introduced which also get shared across many components in a myriad ways. But, so far into the project, doesn’t seem like the need would arise. Remember to be mindful before creating that abstraction */
