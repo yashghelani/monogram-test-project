@@ -1,7 +1,7 @@
 <!-- ⚙️ Imports + Logic (Section 1) -->
 <script>
 	import Jamstack101 from "../../../lib/layouts/Section1/Jamstack101/index.svelte";
-	import Javascript from "../../../lib/layouts/Section1/JavaScript/index.svelte";
+	import JavaScript from "../../../lib/layouts/Section1/JavaScript/index.svelte";
 </script>
 
 <!-- 🧱 Structure (Section 1) -->
@@ -10,7 +10,7 @@
 	<Jamstack101 />
 
 	<!-- 📄 Sub-section 2 -->
-	<Javascript />
+	<JavaScript />
 </section>
 
 <!-- 🎨 Styles (Section 1) -->
